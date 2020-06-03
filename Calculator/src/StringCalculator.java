@@ -35,12 +35,22 @@ public class StringCalculator {
 	
 	private void exceptionalInput(String[] digits) throws Exception
 	{
+		int count=1;
+		String val="";
+		
 		for(String value:digits)
 		{
 			if (stringToInt(value)<0)
 			{
-				throw new Exception("negatives not allowed");
+				count++;
+				
+				String p=val.concat(value);
+				throw new Exception("negatives not allowed-"+p);
 			}
+		}
+		if(count>1)
+		{
+			throw new Exception("negatives not allowed");
 		}
 	}
 	

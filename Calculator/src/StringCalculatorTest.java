@@ -44,5 +44,11 @@ public class StringCalculatorTest {
 		s.add("-1");
 	}
 	
+	@Test(expectedExceptions=Exception.class)
+	public void multipleNegativeInputException() throws Exception
+	{
+		s.add("-1,-2");
+	}
+	
 }
 
