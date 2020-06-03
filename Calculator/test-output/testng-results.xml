@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2020-06-03T17:51:05 IST" finished-at="2020-06-03T17:51:06 IST">
+  <suite name="Default suite" duration-ms="98" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2020-06-03T17:51:05 IST" finished-at="2020-06-03T17:51:06 IST">
+    <test name="Default test" duration-ms="98" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
       <class name="StringCalculatorTest">
-        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@43814d18]" name="declare" is-config="true" duration-ms="13" started-at="2020-06-03T17:51:05 IST" finished-at="2020-06-03T17:51:05 IST">
+        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@43814d18]" name="declare" is-config="true" duration-ms="21" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- declare -->
-        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@43814d18]" name="emptyString" duration-ms="9" started-at="2020-06-03T17:51:05 IST" finished-at="2020-06-03T17:51:05 IST">
+        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@43814d18]" name="emptyString" duration-ms="16" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyString -->
-        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@43814d18]" name="singleValueReturn" duration-ms="1" started-at="2020-06-03T17:51:06 IST" finished-at="2020-06-03T17:51:06 IST">
+        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@43814d18]" name="singleValueReturn" duration-ms="2" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValueReturn -->
