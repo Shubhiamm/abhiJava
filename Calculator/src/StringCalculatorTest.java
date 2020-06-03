@@ -20,5 +20,15 @@ public class StringCalculatorTest {
 	{
 	assertEquals(s.add("1"), 1);
 	}
+	
+	public void commaDelimitedSum()
+	{
+		assertEquals(s.add("1,2"), 3);
+	}
+	
+	public void newLineDelimeterReturnsSum()
+	{
+		assertEquals(s.add("1\n2"), 3);
+	}
 }
 
