@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+  <suite name="Default suite" duration-ms="71" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+    <test name="Default test" duration-ms="71" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
       <class name="StringCalculatorTest">
-        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@43814d18]" name="declare" is-config="true" duration-ms="15" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="declare" is-config="true" duration-ms="9" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- declare -->
-        <test-method status="PASS" signature="commaDelimitedSum()[pri:0, instance:StringCalculatorTest@43814d18]" name="commaDelimitedSum" duration-ms="13" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+        <test-method status="PASS" signature="commaDelimitedSum()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="commaDelimitedSum" duration-ms="9" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commaDelimitedSum -->
-        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@43814d18]" name="emptyString" duration-ms="2" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="emptyString" duration-ms="2" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyString -->
-        <test-method status="PASS" signature="newLineDelimeterReturnsSum()[pri:0, instance:StringCalculatorTest@43814d18]" name="newLineDelimeterReturnsSum" duration-ms="4" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+        <test-method status="PASS" signature="negativeInputThrowsException()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="negativeInputThrowsException" duration-ms="1" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[negatives not allowed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: negatives not allowed
+at StringCalculator.exceptionalInput(StringCalculator.java:42)
+at StringCalculator.getAddition(StringCalculator.java:26)
+at StringCalculator.add(StringCalculator.java:20)
+at StringCalculatorTest.negativeInputThrowsException(StringCalculatorTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeInputThrowsException -->
+        <test-method status="PASS" signature="newLineDelimeterReturnsSum()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="newLineDelimeterReturnsSum" duration-ms="1" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newLineDelimeterReturnsSum -->
-        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@43814d18]" name="singleValueReturn" duration-ms="2" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="singleValueReturn" duration-ms="1" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValueReturn -->
+        <test-method status="PASS" signature="sumOfUnknownAmountOfNumbers()[pri:0, instance:StringCalculatorTest@5c5a1b69]" name="sumOfUnknownAmountOfNumbers" duration-ms="1" started-at="2020-06-03T20:12:37 IST" finished-at="2020-06-03T20:12:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfUnknownAmountOfNumbers -->
       </class> <!-- StringCalculatorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

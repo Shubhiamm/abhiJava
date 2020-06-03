@@ -5,8 +5,7 @@
     <classes>
       <class name="StringCalculatorTest">
         <methods>
-          <include name="commaDelimitedSum"/>
-          <include name="newLineDelimeterReturnsSum"/>
+          <include name="negativeInputThrowsException"/>
           <include name="declare"/>
         </methods>
       </class> <!-- StringCalculatorTest -->
