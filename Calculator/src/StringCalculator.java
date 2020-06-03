@@ -4,7 +4,7 @@ public class StringCalculator {
 	
 	private final String delimeter=",|\n";
 	
-	public int add(String input)
+	public int add(String input) throws Exception
 	{
 		String[] digits=input.split(delimeter);
 		
@@ -17,13 +17,31 @@ public class StringCalculator {
 		}
 		else
 		{
-			return getAddition(digits[0],digits[1]);
+			return getAddition(digits);
 		}
 	}
 	
-	private int getAddition(String na,String nb)
+	private int getAddition(String[] digits) throws Exception
 	{
-		return Integer.parseInt(na)+Integer.parseInt(nb);
+		exceptionalInput(digits);
+		
+		int sum=0;
+		for(String value:digits)
+		{
+			sum+=stringToInt(value);
+		}
+		return sum;
+	}
+	
+	private void exceptionalInput(String[] digits) throws Exception
+	{
+		for(String value:digits)
+		{
+			if (stringToInt(value)<0)
+			{
+				throw new Exception("negatives not allowed");
+			}
+		}
 	}
 	
 	private int stringToInt(String input)
