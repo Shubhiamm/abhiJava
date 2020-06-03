@@ -25,9 +25,17 @@ public class StringCalculator {
 	{
 		exceptionalInput(digits);
 		
+		return sumWithoutGreaterThousand(digits);
+	}
+	
+	private int sumWithoutGreaterThousand(String[] digits)
+	{
 		int sum=0;
 		for(String value:digits)
 		{
+			if (stringToInt(value)>1000) {
+				continue;
+			}
 			sum+=stringToInt(value);
 		}
 		return sum;

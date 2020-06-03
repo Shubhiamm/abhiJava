@@ -50,5 +50,9 @@ public class StringCalculatorTest {
 		s.add("-1,-2");
 	}
 	
+	public void ignoresNumberGreaterThanThousand() throws Exception
+	{
+		assertEquals(s.add("10,20,1001"),30);
+	}
 }
 
