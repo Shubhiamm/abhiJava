@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
+  <suite name="Default suite" duration-ms="87" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
+    <test name="Default test" duration-ms="87" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
       <class name="StringCalculatorTest">
-        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@43814d18]" name="declare" is-config="true" duration-ms="21" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
+        <test-method status="PASS" signature="declare()[pri:0, instance:StringCalculatorTest@43814d18]" name="declare" is-config="true" duration-ms="15" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- declare -->
-        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@43814d18]" name="emptyString" duration-ms="16" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
+        <test-method status="PASS" signature="commaDelimitedSum()[pri:0, instance:StringCalculatorTest@43814d18]" name="commaDelimitedSum" duration-ms="13" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commaDelimitedSum -->
+        <test-method status="PASS" signature="emptyString()[pri:0, instance:StringCalculatorTest@43814d18]" name="emptyString" duration-ms="2" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyString -->
-        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@43814d18]" name="singleValueReturn" duration-ms="2" started-at="2020-06-03T18:17:33 IST" finished-at="2020-06-03T18:17:33 IST">
+        <test-method status="PASS" signature="newLineDelimeterReturnsSum()[pri:0, instance:StringCalculatorTest@43814d18]" name="newLineDelimeterReturnsSum" duration-ms="4" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newLineDelimeterReturnsSum -->
+        <test-method status="PASS" signature="singleValueReturn()[pri:0, instance:StringCalculatorTest@43814d18]" name="singleValueReturn" duration-ms="2" started-at="2020-06-03T18:54:30 IST" finished-at="2020-06-03T18:54:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singleValueReturn -->
